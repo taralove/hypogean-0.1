@@ -5,6 +5,13 @@
 
 define t = Character("Tara")
 image bg cafe = "cafe.png"
+image boss = "placeholder.png"
+image killian = "placeholder.png"
+image zharra = "placeholder.png"
+image jonathan = "placeholder.png"
+image matt = "placeholder.png"
+image gloria = "placeholder.png"
+image tara = "tara.png"
 
 # The game starts here.
 
