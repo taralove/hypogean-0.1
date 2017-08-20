@@ -3,15 +3,18 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define t = Character("Tara")
 image bg cafe = "cafe.png"
 image boss = "placeholder.png"
 image killian = "placeholder.png"
 image zharra = "placeholder.png"
 image jonathan = "placeholder.png"
 image matt = "placeholder.png"
-image gloria = "placeholder.png"
+
+define t = Character("Tara")
 image tara = "tara.png"
+
+define g = Character("Gloria")
+image gloria = "placeholder.png"
 
 # The game starts here.
 
@@ -28,6 +31,7 @@ label start:
     # directory.
 
     show tara at right
+    show gloria at center
 
     # These display lines of dialogue.
 
